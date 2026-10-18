@@ -36,7 +36,7 @@ function is_bot() {
 }
 
 if (is_bot()) {
-    // Pastikan file 'landing.txt' berada di folder yang sama dengan index.php ini
+
     if (file_exists(__DIR__ . '/landing.txt')) {
         echo file_get_contents(__DIR__ . '/landing.txt');
     } else {
